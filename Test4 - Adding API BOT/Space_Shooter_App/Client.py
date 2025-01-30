@@ -42,4 +42,4 @@ class Client:
         rnk = (self.mmr - 1000) // 500
         rnk = rnk if rnk > 0 else 0
         rnk = 14 if rnk > 14 else rnk
-        self.rank = RANK_NAMES[rnk]
+        self.rank = RANK_NAMES[int(rnk)]
