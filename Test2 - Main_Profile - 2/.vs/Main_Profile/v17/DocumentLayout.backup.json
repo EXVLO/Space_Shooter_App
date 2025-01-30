@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Main_Profile.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Main_Profile.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Personal_Chat_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Personal_Chat_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Login_Register_Screen.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Login_Register_Screen.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Shared_Resources.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Shared_Resources.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Space_Shooter.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Space_Shooter.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Public_Message_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Public_Message_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Client_Handler.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Client_Handler.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Friends_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}|Main_Profile.pyproj|solutionrelative:Friends_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shared_Resources.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Shared_Resources.py",
+              "RelativeDocumentMoniker": "Shared_Resources.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Shared_Resources.py",
+              "RelativeToolTip": "Shared_Resources.py",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAkwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-24T17:02:06.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Personal_Chat_Section.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Personal_Chat_Section.py",
+              "RelativeDocumentMoniker": "Personal_Chat_Section.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Personal_Chat_Section.py",
+              "RelativeToolTip": "Personal_Chat_Section.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-27T10:49:52.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login_Register_Screen.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Login_Register_Screen.py",
+              "RelativeDocumentMoniker": "Login_Register_Screen.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Login_Register_Screen.py",
+              "RelativeToolTip": "Login_Register_Screen.py",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-26T12:10:24.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Public_Message_Section.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Public_Message_Section.py",
+              "RelativeDocumentMoniker": "Public_Message_Section.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Public_Message_Section.py",
+              "RelativeToolTip": "Public_Message_Section.py",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-27T10:48:16.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main_Profile.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Main_Profile.py",
+              "RelativeDocumentMoniker": "Main_Profile.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Main_Profile.py",
+              "RelativeToolTip": "Main_Profile.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-24T16:58:54.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client_Handler.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Client_Handler.py",
+              "RelativeDocumentMoniker": "Client_Handler.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Client_Handler.py",
+              "RelativeToolTip": "Client_Handler.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-26T13:53:34.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Space_Shooter.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Space_Shooter.py",
+              "RelativeDocumentMoniker": "Space_Shooter.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Space_Shooter.py",
+              "RelativeToolTip": "Space_Shooter.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-24T19:34:17.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Friends_Section.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Friends_Section.py",
+              "RelativeDocumentMoniker": "Friends_Section.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Main_Profile - 2\\Friends_Section.py",
+              "RelativeToolTip": "Friends_Section.py",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-24T16:59:07.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

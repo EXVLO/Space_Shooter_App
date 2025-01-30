@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1ff996bd-fe01-46d6-8b59-9ee72cb9df4b</ProjectGuid>
+    <ProjectGuid>9226c65f-205b-4ee1-9c49-9e7d5eddc497</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Game___Space_Shooter.py</StartupFile>
+    <StartupFile>Main_Profile.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Game - Space Shooter</Name>
-    <RootNamespace>Game - Space Shooter</RootNamespace>
+    <Name>Main_Profile</Name>
+    <RootNamespace>Main_Profile</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game___Space_Shooter.py" />
+    <Compile Include="Client_Handler.py" />
+    <Compile Include="Friends_Section.py" />
+    <Compile Include="Login_Register_Screen.py" />
+    <Compile Include="Main_Profile.py" />
+    <Compile Include="MMR_Rankings.py" />
+    <Compile Include="Personal_Chat_Section.py" />
+    <Compile Include="Public_Message_Section.py" />
+    <Compile Include="Settings_Section.py" />
+    <Compile Include="Shared_Resources.py" />
+    <Compile Include="Space_Shooter.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

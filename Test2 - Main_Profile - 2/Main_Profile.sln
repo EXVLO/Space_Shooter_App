@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Game - Space Shooter", "Game - Space Shooter.pyproj", "{1FF996BD-FE01-46D6-8B59-9EE72CB9DF4B}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Main_Profile", "Main_Profile.pyproj", "{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1FF996BD-FE01-46D6-8B59-9EE72CB9DF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FF996BD-FE01-46D6-8B59-9EE72CB9DF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9226C65F-205B-4EE1-9C49-9E7D5EDDC497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DB51EEBF-F82F-43B6-B0B3-4DC8E52F365C}
+		SolutionGuid = {B03139CB-158D-444F-8B09-7554C50CB1C3}
 	EndGlobalSection
 EndGlobal
