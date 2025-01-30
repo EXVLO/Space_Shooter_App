@@ -18,7 +18,7 @@ add_button = pygame.Rect(SCREEN_WIDTH // 2 + 160, SCREEN_HEIGHT - 110, 120, 40)
 
 
 # Function to display the friends list in a new window
-def show_friend_window(curr_client):
+def show_friend_window(curr_client, server):
 
     screen.fill(BACKGROUND_COLOR)
 
@@ -98,12 +98,16 @@ def show_friend_window(curr_client):
                         if index == -1:
                             return  # Close the Friends window and return to the main window
                         else:
+                            message = f"%%%REMOVEFRIEND{curr_client.name}, {curr_client.friends[index]}"
+                            server.serv.send(message.encode("utf-8"))
                             curr_client.remove_Friend(curr_client.friends[index]) # Remove the friend from the list
                             buttons = []  # Clear buttons list for re-rendering
                             render_friends()  # Re-render the updated friends list
 
                 if add_button.collidepoint(event.pos):
                     if input_text.strip():  # Add the friend if text is not empty
+                        message = f"%%%ADDFRIEND{curr_client.name}, {input_text.strip()}"
+                        server.serv.send(message.encode("utf-8"))
                         curr_client.add_Friend(input_text.strip())
                         input_text = ""  # Clear the input box
                         buttons = []  # Clear buttons list for re-rendering

@@ -1,5 +1,6 @@
 import pygame
 import sys
+import json
 from Shared_Resources import (
         SCREEN_WIDTH, SCREEN_HEIGHT, 
         BACKGROUND_COLOR,
@@ -119,24 +120,38 @@ def show_login_register_window(curr_client, server):
                     # Enter Button
                     if enter_button.collidepoint(event.pos):
                         if choice == 0:  # Login
+                            # Prepare the login message to send to the server
                             server_message = f"%%%LOGIN{username_text}, {password_text}"
                             server.serv.send(server_message.encode("utf-8"))
 
-                            recieved_message = server.serv.recv(1024).decode("utf-8")
-                            if recieved_message == "-1":
+                            # Wait for the server's response
+                            received_message = server.serv.recv(1024).decode("utf-8")
+
+                            # Handle the server's response
+                            if received_message == "-1":
                                 error_id = -1
                                 print("Username not found")
-                            elif recieved_message == "-2":
+                            elif received_message == "-2":
                                 error_id = -2
                                 print("Password is incorrect")
                             else:
-                                # This assumes the login was successful and the response contains user data
-                                name, password, acc_created, acc_created_time, max_score = recieved_message.split(", ", 4)
-                                curr_client.change_Name(name)
-                                curr_client.change_Pass(password)
-                                curr_client.account_created = acc_created + "," + acc_created_time
-                                curr_client.update_max_score(float(max_score))
-                                print(f"Welcome back {name}!")
+                                try:
+                                    # Parse the JSON response
+                                    response = json.loads(received_message)
+
+                                    # Update the client's data
+                                    curr_client.change_Name(response["name"])
+                                    curr_client.change_Pass(response["password"])
+                                    curr_client.account_created = response["acc_created"]
+                                    curr_client.update_max_score(float(response["max_score"]))
+                                    curr_client.friends = response["friend_list"]
+
+                                    print(f"Welcome back {response['name']}!")
+                                    print(f"Your friends: {curr_client.friends}")
+                                except json.JSONDecodeError as e:
+                                    print(f"Error decoding server response: {e}")
+                                except KeyError as e:
+                                    print(f"Missing key in server response: {e}")
                                 return
                         else:  # Register
                             server_message = f"%%%REGISTER{username_text}, {password_text}"

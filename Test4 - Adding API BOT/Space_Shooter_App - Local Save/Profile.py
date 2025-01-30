@@ -5,6 +5,7 @@ from MMR_Rankings import show_rank_window
 from Settings import show_settings_window
 from Space_Shooter_Game import game
 from Public_Chat_Section import show_public_message_section
+from Statistics import show_graph
 from Shared_Resources import (
         SCREEN_WIDTH, SCREEN_HEIGHT, 
         BACKGROUND_COLOR,
@@ -20,6 +21,7 @@ buttons = [
     {"label": "Settings Section", "rect": pygame.Rect(int(SCREEN_WIDTH * 11 / 21), int(SCREEN_HEIGHT * 0.9), 150, 40)},
     {"label": "View Ranks", "rect": pygame.Rect(int(SCREEN_WIDTH * 0.8), int(SCREEN_HEIGHT * 0.1), 120, 30)},
     {"label": "Friend Section", "rect": pygame.Rect(int(SCREEN_WIDTH  * 16 / 21), int(SCREEN_HEIGHT * 0.9), 150, 40)},  
+    {"label": "Statistics", "rect": pygame.Rect(int(SCREEN_WIDTH  * 0.6), int(SCREEN_HEIGHT * 0.1), 120, 30)},  
 ]
 
 # Initialize Pygame
@@ -55,7 +57,10 @@ def show_profile(curr_client, server):
                     show_rank_window()
                     pygame.display.set_caption("Main")
                 elif buttons[4]["rect"].collidepoint(mouse_pos):  # Friend Section button
-                    show_friend_window(curr_client)
+                    show_friend_window(curr_client, server)
+                    pygame.display.set_caption("Main")
+                elif buttons[5]["rect"].collidepoint(mouse_pos):  # Statistics
+                    show_graph(curr_client, server)
                     pygame.display.set_caption("Main")
            
         # Screen Background

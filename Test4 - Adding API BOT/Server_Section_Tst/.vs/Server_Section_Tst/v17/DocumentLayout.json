@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Server_Section_Tst\\",
+  "WorkspaceRootPath": "C:\\Users\\sandro\\Desktop\\Project 1\\Test4 - Adding API BOT\\Server_Section_Tst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{142B0BF2-B621-41A8-8558-5299E8564D10}|Server_Section_Tst.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Server_Section_Tst\\Server_Section_Tst.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{142B0BF2-B621-41A8-8558-5299E8564D10}|Server_Section_Tst.pyproj|C:\\Users\\sandro\\Desktop\\Project 1\\Test4 - Adding API BOT\\Server_Section_Tst\\Server_Section_Tst.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{142B0BF2-B621-41A8-8558-5299E8564D10}|Server_Section_Tst.pyproj|solutionrelative:Server_Section_Tst.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Server_Section_Tst.py",
-              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Server_Section_Tst\\Server_Section_Tst.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Project 1\\Test4 - Adding API BOT\\Server_Section_Tst\\Server_Section_Tst.py",
               "RelativeDocumentMoniker": "Server_Section_Tst.py",
-              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Server_Section_Tst\\Server_Section_Tst.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Project 1\\Test4 - Adding API BOT\\Server_Section_Tst\\Server_Section_Tst.py",
               "RelativeToolTip": "Server_Section_Tst.py",
-              "ViewState": "AgIAAK8AAAAAAAAAAADgv7gAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-01-27T10:38:29.173Z",
               "EditorCaption": ""

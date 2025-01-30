@@ -36,13 +36,13 @@ def receive_messages(curr_client, server):
         try:
             message = server.serv.recv(1024).decode("utf-8")
             if message:
-                with message_lock:  # Lock to safely modify the list
+                with message_lock:
                     received_messages.append(message)
-                    if len(received_messages) > 50:  # Keep the last 50 messages
+                    if len(received_messages) > 50:
                         received_messages.pop(0)
         except:
-            print("[INFO] Disconnected from server.")
-            break
+            print("[INFO] Connection lost. The recipient might be offline.")
+            break 
 
 def message_section(curr_client, receiver_name, server):
     global input_text, active_input
@@ -50,6 +50,8 @@ def message_section(curr_client, receiver_name, server):
     pygame.display.set_caption(f"Chat with {receiver_name}")
 
     threading.Thread(target=receive_messages, args=(curr_client, server), daemon=True).start()
+
+    received_messages.clear()
 
     while True:
         mouse_pos = pygame.mouse.get_pos()
@@ -92,20 +94,23 @@ def message_section(curr_client, receiver_name, server):
                     active_input = False
                 
                 if send_button.collidepoint(event.pos):
-                    if input_text.strip():
-                        # Format the message to send to the server
-                        message = f"{curr_client.name}, {receiver_name}, {input_text.strip()}"
-                        server.serv.send(message.encode("utf-8"))
+                    try:
+                        if input_text.strip():
+                            # Format the message to send to the server
+                            message = f"{curr_client.name}, {receiver_name}, {input_text.strip()}"
+                            server.serv.send(message.encode("utf-8"))
 
-                        # Add the sent message to the local display
-                        message2 = f"You: {input_text.strip()}"
-                        with message_lock:  # Lock to safely modify the list
-                            received_messages.append(message2)
-                            if len(received_messages) > 50:  # Keep the last 50 messages
-                                received_messages.pop(0)
+                            # Add the sent message to the local display
+                            message2 = f"You: {input_text.strip()}"
+                            with message_lock:  # Lock to safely modify the list
+                                received_messages.append(message2)
+                                if len(received_messages) > 50:  # Keep the last 50 messages
+                                    received_messages.pop(0)
 
-                        # Clear input box after sending
-                        input_text = ""
+                            # Clear input box after sending
+                            input_text = ""
+                    except:
+                        print("[INFO] Unknown Error occured") 
 
                 if return_button.collidepoint(event.pos):
                     return
