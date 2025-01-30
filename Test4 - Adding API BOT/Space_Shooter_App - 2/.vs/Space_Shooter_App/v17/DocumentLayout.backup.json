@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Private_Chat_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Private_Chat_Section.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Profile.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Profile.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Space_Shooter_App.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Space_Shooter_App.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Space_Shooter_Game.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Space_Shooter_Game.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Server.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Server.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Client.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Statistics.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Statistics.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Shared_Resources.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F88D4C06-3593-4BB7-818C-A2565F6A3F69}|Space_Shooter_App.pyproj|solutionrelative:Shared_Resources.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Private_Chat_Section.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Private_Chat_Section.py",
+              "RelativeDocumentMoniker": "Private_Chat_Section.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Private_Chat_Section.py",
+              "RelativeToolTip": "Private_Chat_Section.py",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-30T02:24:31.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Space_Shooter_Game.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Space_Shooter_Game.py",
+              "RelativeDocumentMoniker": "Space_Shooter_Game.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Space_Shooter_Game.py",
+              "RelativeToolTip": "Space_Shooter_Game.py",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-30T02:20:41.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Statistics.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Statistics.py",
+              "RelativeDocumentMoniker": "Statistics.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Statistics.py",
+              "RelativeToolTip": "Statistics.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-29T16:18:46.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Client.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Client.py",
+              "RelativeDocumentMoniker": "Client.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Client.py",
+              "RelativeToolTip": "Client.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-29T09:15:20.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Server.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Server.py",
+              "RelativeDocumentMoniker": "Server.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Server.py",
+              "RelativeToolTip": "Server.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-28T12:39:07.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Profile.py",
+              "RelativeDocumentMoniker": "Profile.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Profile.py",
+              "RelativeToolTip": "Profile.py",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-28T08:14:22.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shared_Resources.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Shared_Resources.py",
+              "RelativeDocumentMoniker": "Shared_Resources.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Shared_Resources.py",
+              "RelativeToolTip": "Shared_Resources.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-28T08:03:45.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Space_Shooter_App.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Space_Shooter_App.py",
+              "RelativeDocumentMoniker": "Space_Shooter_App.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Visual Studio Community\\Test - Adding API BOT\\Space_Shooter_App - 2\\Space_Shooter_App.py",
+              "RelativeToolTip": "Space_Shooter_App.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-28T08:02:03.326Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
