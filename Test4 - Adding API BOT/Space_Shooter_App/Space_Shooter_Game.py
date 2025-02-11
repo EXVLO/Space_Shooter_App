@@ -119,8 +119,8 @@ class Lazer:
 class UFO:
     def __init__(self):
         self.x = random.randint(0, window_width - ufo_img.get_width())
-        self.y = -ufo_img.get_height()  # Spawn UFOs at the top
-        self.speed = 2  # Adjust UFO speed here
+        self.y = -ufo_img.get_height()  # Spawn UFOs 
+        self.speed = 2  # UFO speed here
 
     def draw(self):
         screen.blit(ufo_img, (self.x, self.y))
@@ -145,16 +145,15 @@ running = True
 background.start()
 pygame.display.update()
 
-# Return button at the bottom left
+# Buttons
 start_button = pygame.Rect(int(SCREEN_WIDTH * 0.5 - 70), int(SCREEN_HEIGHT * 0.3), 140, 50)
-# Return button at the bottom left
 return_button = pygame.Rect(int(SCREEN_WIDTH * 0.8), int(SCREEN_HEIGHT * 0.9), 80, 30)
 
 def game(curr_client, server):
     pygame.display.set_caption("Space Shooter")
     global score, health, wave, lazers, ufos, explosives, space_pressed  
 
-    # Reset game variables
+    # Reset game 
     score = 0
     wave = 1
     health = 3
@@ -162,12 +161,12 @@ def game(curr_client, server):
     ufos = []
     explosives = []
 
-    # Display starting screen
+    # Display screen
     starting = True
     background.start()
     pygame.display.update()
 
-    # Handle Game window events
+    # Handle Game
     while starting:
         mouse_pos = pygame.mouse.get_pos()
 
@@ -195,7 +194,7 @@ def game(curr_client, server):
                 elif return_button.collidepoint(event.pos):
                     return
 
-    # Initialize game variables
+    # Initialize settings
     start_time = time.time()
     score = 0
     wave = 1
@@ -214,7 +213,6 @@ def game(curr_client, server):
                 pygame.quit()
                 sys.exit()
 
-        # Calculate elapsed time and wave
         time_now = time.time() - start_time
         wave = 1 + int(time_now) // 30
 
@@ -225,10 +223,10 @@ def game(curr_client, server):
         if keys[pygame.K_SPACE] and not space_pressed and current_time - last_shot_time > shoot_delay:
             lazers.append(Lazer(spaceship.x + spaceship_img.get_width() // 2 - lazer_img.get_width() // 2))
             last_shot_time = current_time
-            space_pressed = True  # Mark space as pressed
+            space_pressed = True 
 
         if not keys[pygame.K_SPACE]:
-            space_pressed = False  # Reset when SPACE is released
+            space_pressed = False 
 
         # Drawing and updating objects
         background.draw(time_now)

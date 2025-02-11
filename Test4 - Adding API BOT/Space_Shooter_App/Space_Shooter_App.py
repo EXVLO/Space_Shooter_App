@@ -9,18 +9,15 @@ from Profile import show_profile
 from Server import Server
 from Client import Client
 
-# Initialize Pygame
+
 pygame.init()
 
-# Initialize screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Main")
 
-# Initialize & Connect to Server
 server = Server()
 server.serv.connect((server.server_host, server.server_port))
 
-# Initialize
 client = Client("819", "E.S 2.0")
 
 # Login / Register

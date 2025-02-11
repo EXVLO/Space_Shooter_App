@@ -7,7 +7,6 @@ def plot_data(curr_client, account_age, scores):
     # Scale the account age by dividing by 50
     scaled_account_age = [age / 50 for age in account_age]
 
-    # Scale the scores by dividing the max score by the size of the list
     max_score = max(scores)
     list_size = len(scores)
     scaled_scores = [score / list_size for score in scores]
@@ -15,14 +14,13 @@ def plot_data(curr_client, account_age, scores):
     # Create the scatter plot
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    # Scatter plot for scaled account age vs scaled scores
+    # Scatter plot 
     scatter = ax.scatter(scaled_account_age, scaled_scores, color='blue', label="Scores", alpha=0.7, edgecolors='black', s=100)
 
-    # Calculate the centroid (mean of scaled account_age and scaled scores)
     centroid_x = np.mean(scaled_account_age)
     centroid_y = np.mean(scaled_scores)
 
-    # Plot the centroid as a red point
+    # Plot the centroid 
     centroid = ax.scatter(centroid_x, centroid_y, color='red', marker='X', s=200, label="Centroid", edgecolors='black')
 
     # Convert curr_client.account_created to account age in days
@@ -30,13 +28,12 @@ def plot_data(curr_client, account_age, scores):
     current_date = datetime.now()
     account_age_client = (current_date - account_created).days
 
-    # Scale the account age for curr_client
     scaled_account_age_client = account_age_client / 50
 
     # Get curr_client's score and scale it
     score_client = curr_client.max_Score / list_size
 
-    # Plot the client's dot as a green dot and label it as "You"
+    # My Score / Dot
     client_point = ax.scatter(scaled_account_age_client, score_client, color='green', s=250, label="You", marker='*', edgecolors='black')
 
     # Annotate the centroid and client's point
@@ -45,21 +42,16 @@ def plot_data(curr_client, account_age, scores):
     ax.annotate('You', xy=(scaled_account_age_client, score_client), xytext=(scaled_account_age_client + 0.5, score_client + 0.5),
                 arrowprops=dict(facecolor='black', shrink=0.05), fontsize=12, color='green')
 
-    # Labels and title
     ax.set_xlabel("Account Age (Days in 50s)", fontsize=14, fontweight='bold')
     ax.set_ylabel("Score (Scaled)", fontsize=14, fontweight='bold')
     ax.set_title("Scaled Score vs Scaled Account Age", fontsize=16, fontweight='bold')
 
-    # Add a legend
     ax.legend(loc='upper right', fontsize=12)
 
-    # Add grid lines
     ax.grid(True, linestyle='--', alpha=0.6)
 
-    # Adjust layout to prevent overlap
     plt.tight_layout()
 
-    # Show the graph
     plt.show()
 
 def show_graph(curr_client, server):
@@ -90,5 +82,4 @@ def show_graph(curr_client, server):
         except KeyError as e:
             print(f"Missing key in server response: {e}")
 
-    # Call plot_data with the scaled data
     plot_data(curr_client, account_age_in_days, max_score_data)
